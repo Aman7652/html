@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{ 
+    background-color:rgb(190, 186, 186);
+    font-family: "Sedan SC", serif;
+   
+width:205px;
+height: 100vh;
+}
+
+.sidebar nav{
+    padding: 40px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 21px;
+    padding-bottom: 35px;
+
+}
+.sidebar nav li a{
+text-decoration: none;
+color: black;
+}
+/*(home page)*/
+.main{
+    /*background-color:rgb(58, 139, 139);*/
+    width:85vw ;
+}
+.container{
+    display:flex;
+}
+.infocontainer{
+    /*background-color:rgb(58, 139, 139);*/
+    height: 60vh;
+    width: 80vw;
+    margin: 170px auto;
+    display: flex;
+    justify-content:space-around;
+    font-family: "Roboto Slab", serif;
+}
+.button button{
+
+    background-color: rgb(74, 130, 181);
+    color: white;
+    font-size: 17px;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 31px;
+    cursor: pointer;
+    border-color: rgb(74, 130, 181) ;
+}
+.button button:hover{
+   color: rgb(74, 130, 181);
+   background-color: white;
+}
+.devpic img{
+    width: 573px;
+    align-items: center;
+}
+.devinfo{
+    font-size: 33px;
+    align-content: center;
+}
+/*portfolio*/
+
+h1.hell {
+    text-align:center;
+    font-family: "Sedan SC", serif;
+    margin-top: 24px;
+}
+.port{
+    width: 100%;
+    height: 500px;
+    box-shadow: 0px 0px 3px grey;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*(contact form)*/
+.contactform{
+  font-family: "Sedan SC", serif;
+  padding-top: 20px;
+  padding-left: 30px;
+
+}
+.contactform h1{
+  font-family: "Roboto Slab", serif;
+}
+.contactform form div{
+  padding: 5px 0;
+
+}
+.mb-3{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+.form-control{
+  border-radius: 7px;
+}
+.form-text{
+  font-size: 10px;
+
+}
+.submit-btn{
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 22px;
+  background-color:  rgb(74, 130, 181)
+}
+/*(social media)*/
+.social10 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.a1{
+  margin-right: 0%;
+}
+.a2{
+  margin-right: 1%;
+  margin-left: 0%;
+}
+.a3{
+  margin-right: 1%;
+  margin-left: 0%;
+}
+.a4{
+  margin-right: 1%;
+  margin-left: 0%;
+}

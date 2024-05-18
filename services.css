@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*slide bar*/
+
+.sidebar{ 
+    background-color:rgb(190, 186, 186);
+    font-family: "Sedan SC", serif;
+   
+width: 205px;
+height: 110vh;
+}
+
+.sidebar nav{
+    padding: 40px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 21px;
+    padding-bottom: 35px;
+
+}
+.sidebar nav li a{
+text-decoration: none;
+color: black;
+}
+/*(home page)*/
+.main{
+    /*background-color:rgb(58, 139, 139);*/
+    width:85vw ;
+}
+.container{
+    display:flex;
+}
+.infocontainer{
+    /*background-color:rgb(58, 139, 139);*/
+    height: 60vh;
+    width: 80vw;
+    margin: 170px auto;
+    display: flex;
+    justify-content:space-around;
+    font-family: "Roboto Slab", serif;
+}
+.button button{
+
+    background-color: rgb(74, 130, 181);
+    color: white;
+    font-size: 17px;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 31px;
+    cursor: pointer;
+    border-color: rgb(74, 130, 181) ;
+}
+.button button:hover{
+   color: rgb(74, 130, 181);
+   background-color: white;
+}
+.devpic img{
+    width: 573px;
+    align-items: center;
+}
+.devinfo{
+    font-size: 33px;
+    align-content: center;
+}
+/*(contact form)*/
+.contactform{
+    font-family: "Sedan SC", serif;
+    padding-top: 84px;
+    padding-left: 30px;
+
+}
+.contactform h1{
+    font-family: "Roboto Slab", serif;
+}
+.contactform form div{
+    padding: 5px 0;
+
+}
+.mb-3{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+.form-control{
+    border-radius: 7px;
+}
+.form-text{
+    font-size: 10px;
+
+}
+.submit-btn{
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 22px;
+    background-color: cadetblue;
+}
+/*(social media)*/
+.social10 {
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+.a1{
+    margin-right: 0%;
+}
+.a2{
+    margin-right: 1%;
+    margin-left: 0%;
+}
+.a3{
+    margin-right: 1%;
+    margin-left: 0%;
+}
+.a4{
+    margin-right: 1%;
+    margin-left: 0%;
+}
