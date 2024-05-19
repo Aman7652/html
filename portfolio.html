@@ -12,121 +12,82 @@
 <body>
         <!--slide bar-->
             <div class="container">
-              <div class="sidebar";">
-                <nav>
-                    <ul>
-                        <li><A href="/Home.html">HOME</A></li>
-                        <li><A href="/Aboutus.html">ABOUT US</A></li>
-                        <li><A href="/Services.html">SERVICES</A></li>
-                        <li><A href="/portfolio.html">PORTFOLIO</A></li>
-                        <li><A href="/contactus.html">CONTACT US</A></li>
-                    </ul>
+              <div class="sidebar">
+                <nav><b>
+                    <A href="home.html"class="logo">Design Inspiration</A>
+                    <A href="home.html"class="kp1">HOME</A>
+                        <A href="Aboutus.html"class="kp2">ABOUT US</A>
+                        <A href="Services.html"class="kp3">SERVICES</A>
+                        <A href="portfolio.html"class="kp4">PORTFOLIO</A>
+                        <A href="contactus.html"class="kp5">CONTACT US</A>
+                    </b>
                 </nav>
               </div>
-                
-               <!--Portfolio-->
-                <div class="port">
-                  <h1 class="hell">Portfolio</h1>
-                  <!-- Slideshow container -->
+              <div class="Slideshow abc">
+                <!-- Slideshow container -->
                   <div class="slideshow-container">
 
                     <!-- Full-width images with number and caption text -->
                     <div class="mySlides fade">
                       <div class="numbertext">1 / 6</div>
-                      <img src="/pic.jpeg" style="width:100%" height="500px">
+                      <img src="pic.jpeg" style="width:100%" height="555px">
                       <div class="text">Caption Text</div>
                     </div>
 
                     <div class="mySlides fade">
                       <div class="numbertext">2 / 6</div>
-                      <img src="/pic 2.jpeg" style="width:100%" height="500px">
+                      <img src="portfolio.png.png" style="width:100%"height="555px">
                       <div class="text">Caption Two</div>
                     </div>
 
                     <div class="mySlides fade">
                       <div class="numbertext">3 / 6</div>
-                      <img src="/pic 3.jpeg" style="width:100%" height="500px">
+                      <img src="pic 3.jpeg" style="width:100%"height="555px">
                       <div class="text">Caption Three</div>
                     </div>
-
                     <div class="mySlides fade">
                       <div class="numbertext">4/ 6</div>
-                      <img src="/pic 4.jpeg" style="width:100%" height="500px">
+                      <img src="pic 4.jpeg" style="width:100%"height="555px">
                       <div class="text">Caption four</div>
                     </div>
 
                     <div class="mySlides fade">
                       <div class="numbertext">5 / 6</div>
-                      <img src="/pic 5.jpeg" style="width:100%" height="500px">
+                      <img src="pic 5.jpeg" style="width:100%"height="555px">
                       <div class="text">Caption five</div>
                     </div>
 
                     <div class="mySlides fade">
-                        <div class="numbertext">6/ 6</div>
-                        <img src="/pic 6.jpeg" style="width:100%" height="500px">
-                        <div class="text">Caption six</div>
+                      <div class="numbertext">6 / 6</div>
+                      <img src="pic 6.jpeg" style="width:100%"height="555px">
+                      <div class="text">Caption six</div>
                     </div>
 
-                      <!-- Next and previous buttons -->
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    </div>
-                    <br>
-
-                    <!-- The dots/circles -->
-                    <div style="text-align:center">
-                      <span class="dot" onclick="currentSlide(1)"></span>
-                      <span class="dot" onclick="currentSlide(2)"></span>
-                      <span class="dot" onclick="currentSlide(3)"></span>
-                      <span class="dot" onclick="currentSlide(4)"></span>
-                      <span class="dot" onclick="currentSlide(5)"></span>
-                      <span class="dot" onclick="currentSlide(6)"></span>
-                    </div>
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                   </div>
+                  <br>
+
+                  <!-- The dots/circles -->
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                  <span class="dot" onclick="currentSlide(5)"></span>
+                  <span class="dot" onclick="currentSlide(6)"></span>
                 </div>
-              </div><hr>
-              <!--contact form-->
-              <div>
-                <div class="main">
-                  <div class="contactform">
-                   <h1>Contact Us For Work /Genral Enquiries </h1>
-                   <form>
-                   <div class="mb-3">
-                     <label for="Client name" class="form-label">Name</label>
-                     <input type="text" class="form-control" id="client name" aria-describedby="emailHelp">
-                   </div>
-                   <div class="mb-3">
-                     <label for="Client Email" class="form-label">Email address</label>
-                     <input type="email" class="form-control" id="client Email1" aria-describedby="emailHelp">
-                     <div id="emailHelp" class="form-text">We'll never share your email & phone No with anyone else.</div>
-                   </div>
-                   <div class="mb-3">
-                     <label for="clientphone" class="form-label">phone no</label>
-                     <input type="number" class="form-control" id="clientphone">
-                   </div>
-                   <div class="mb-3">
-                     <label for="enquiry" class="form-label">Enquiry</label>
-                     <input type="text" class="form-control" id="client 00">
-                   </div>
-                   <div class="mb-2 form-check">
-                     <input type="checkbox" class="form-check-input" id="isclient">
-                     <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
-                   </div>
-                   <button type="submit" class="submit-btn">Submit</button>
-                 </form>
-               </div>
-               <div class="social10">
-                 <a href ="https://www.instagram.com/amankesarwani2/"class="a1" target="main"><img src="https://imgs.search.brave.com/1b6VS6EaK2Zs1iw9OPGg6mpEMmWdcNM40myr23OAqNs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0LzZk/RG9jOEdWOWZZVVBF/eGdMWVBxcVQtMzIw/LTgwLmpwZw" height="50"></a>
-                 <a href="https://www.linkedin.com/feed/"class="a2" target="main"><img src="linkedin-symbol-logo-.png"width="50"></a>
-                 <a href="https://www.facebook.com/aman.kesarwani.56679" class="a3" target="main"><img src="https://imgs.search.brave.com/jJCoPasn2serH2FU-dHJQycakDfaNS7AZ2vE_CuAUNg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzMyLzIwLzAz/LzM2MF9GXzUzMjIw/MDM1NV9vZEtOOU91/M1dCNmlIV0pURklF/bEZ0SmJUdXpKc3BZ/Ni5qcGc" height="50"/></a>
-               <a href="https://github.com/Aman7652/Git-project"class="a4" target="main"><img src="git40.png"width="50"></a>
-               </div>
-   
-               </div>
-              </div><hr>
-              <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.8445480511396!2d75.88883867471021!3d26.81307797670667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc873264c3df3%3A0x4c7b45a9ce474b8!2sVivekananda%20Global%20University!5e0!3m2!1sen!2sin!4v1715983156975!5m2!1sen!2sin" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
-            <script src="/javasc.js"></script>
+              <div class="goodluck">
+                <b><span><a href="manvender.html"class="m1" target="_blank"> Manvender Bhardwaj</a></span>
+                <span><a href="cv.pdf"class="m2" target="_blank">Aman Kesarwani</a></span>
+                <span><a href="Jk.pdf"class="m3" target="_blank">Jyoti Khemnani</a></span>
+                <span><a href="BabluKumarSawResume .pdf"class="m4" target="_blank">Bablu Kumar</a></span>
+                <span><a href="sourabh singh.html"class="m5" target="_blank">Saurabh Singh</a></span>
+                <span><a href=""class="m6" target="_blank">Ishant Yadav</a></span></b>
+              </div>
+            </div>
+            <script src="javasc.js"></script>
     </body>
 </html>

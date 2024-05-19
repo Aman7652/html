@@ -1,9 +1,24 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
 *{
     margin: 0;
     padding: 0;
+}
+.container{
+    height:500px;
+}
+.home{
+    display:flex;
+    margin-top: 70px;
+}
+.devpic{
+    margin-top: 70px;
+    margin-left: 250px;
+}
+.devinfo{
+    margin-left: 130px;
+    margin-top: 169px;
+    font-family: "Sedan SC", serif;
 }
 /*meanu bar*/
 h1.Hello {
@@ -68,26 +83,18 @@ nav {
     color: black;
     font-family: "Roboto Slab", serif;
 }
+.button button{
 
-.column {
-    float: left;
-    width: 25%;
-    padding-right: 80px;
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .row {
-    margin-top: 55px;
-    margin-left: 147px;
+    background-color: rgb(74, 130, 181);
+    color: white;
+    font-size: 17px;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 31px;
+    cursor: pointer;
+    border-color: rgb(74, 130, 181) ;
 }
-h1.uop {
-    margin-top: 73px;
-    margin-left: 148px;
-    font-family: "Roboto Slab", serif;
-}
-.container {
-    background-color: lavender;
-}
+.button button:hover{
+    color: rgb(74, 130, 181);
+    background-color: white;
+ }
