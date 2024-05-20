@@ -4,28 +4,14 @@
     margin: 0;
     padding: 0;
 }
-/*meanu bar*/
-h1.Hello {
-    font-size: 45px;
-}
-
-h3.branch {
-    font-size: 32px;
-}
-
-h4.about {
-    font-size: 21px;
-}
-
 .sidebar{
     height: 30px;
-    width: 100%;
 }
 nav {
     margin-bottom: 19px;
     height: 50px;
     padding-top: 23px;
-    background-color: rgb(74, 130, 181);
+    background-color: black;
 }
 .logo{
     margin-right: 515px;
@@ -33,6 +19,7 @@ nav {
     font-size: 22px;
     text-decoration: none;
     font-style:italic;
+    color: white;
 }
 a.logo {
     margin-left: 40px;
@@ -41,81 +28,52 @@ a.logo {
 .kp1{
     margin-right:25px;
     text-decoration: none;
-    color: black;
+    color:white;
     font-family: "Roboto Slab", serif;
+    margin-left: 145px;
 }
 
 .kp2{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 
 .kp3{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 .kp4{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 .kp5{
     margin-right: 15px;
     text-decoration: none;
-    color: black;
-    font-family: "Roboto Slab", serif;
-}
-/*(home page)*/
-.main{
-    /*background-color:rgb(58, 139, 139);*/
-    width:85vw ;
-}
-.container{
-    display:flex;
-}
-.infocontainer{
-    /*background-color:rgb(58, 139, 139);*/
-    height: 60vh;
-    width: 80vw;
-    margin: 170px auto;
-    display: flex;
-    justify-content:space-around;
-    font-family: "Roboto Slab", serif;
-}
-.button button{
-
-    background-color: rgb(74, 130, 181);
     color: white;
-    font-size: 17px;
-    margin-top: 5%;
-    padding: 10px;
-    border-radius: 31px;
-    cursor: pointer;
-    border-color: rgb(74, 130, 181) ;
+    font-family: "Roboto Slab", serif;
 }
-.button button:hover{
-   color: rgb(74, 130, 181);
-   background-color: white;
-}
-.devpic img{
-    width: 573px;
-    align-items: center;
-}
-.devinfo{
-    font-size: 33px;
-    align-content: center;
-}
-/*(contact form)*/
+/*contact*/
 .contactform{
     font-family: "Sedan SC", serif;
     padding-top: 20px;
     padding-left: 30px;
 
+}
+label.form-check-label {
+    color: white;
+}
+
+label.form-label {
+    color: white;
+}
+h1 {
+ color: white;
 }
 form {
     margin-top: 50px;
@@ -150,17 +108,11 @@ h1 {
     border-radius: 22px;
     background-color:  rgb(74, 130, 181)
 }
-h1 {
-    color: white;
-}
-.formlabel{
-    color: white;
-}
 /*(social media)*/
 .social10 {
     margin-top: 27px;
     margin-bottom: 32px;
-    margin-left: 544px;
+    margin-left: 594px;
 }
 .a1{
     margin-right: 1%;

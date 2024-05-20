@@ -17,21 +17,10 @@
 }
 .devinfo{
     margin-left: 130px;
-    margin-top: 169px;
+    margin-top: 95px;
     font-family: "Sedan SC", serif;
 }
 /*meanu bar*/
-h1.Hello {
-    font-size: 45px;
-}
-
-h3.branch {
-    font-size: 32px;
-}
-
-h4.about {
-    font-size: 21px;
-}
 
 .sidebar{
     height: 30px;
@@ -40,7 +29,7 @@ nav {
     margin-bottom: 19px;
     height: 50px;
     padding-top: 23px;
-    background-color: rgb(74, 130, 181);
+    background-color: black;
 }
 .logo{
     margin-right: 515px;
@@ -48,6 +37,7 @@ nav {
     font-size: 22px;
     text-decoration: none;
     font-style:italic;
+    color: white;
 }
 a.logo {
     margin-left: 40px;
@@ -56,33 +46,34 @@ a.logo {
 .kp1{
     margin-right:25px;
     text-decoration: none;
-    color: black;
+    color:white;
     font-family: "Roboto Slab", serif;
+    margin-left: 145px;
 }
 
 .kp2{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 
 .kp3{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 .kp4{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 .kp5{
     margin-right: 15px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 .button button{
@@ -95,8 +86,46 @@ a.logo {
     border-radius: 31px;
     cursor: pointer;
     border-color: rgb(74, 130, 181) ;
+    margin-top: 90px;
 }
 .button button:hover{
     color: rgb(74, 130, 181);
     background-color: white;
  }
+ h1.Hello {
+    font-size: 55px;
+}
+
+h3.branch {
+    font-size: 28px;
+    margin-bottom:50px;
+}
+/*home>*/
+h4.about {
+    font-size: 21px;
+}
+.about2{
+    font-size: 21px;
+    margin-left: 28px;
+}
+h4.about3 {
+    font-size: 21px;
+    margin-left: 70px;
+}
+h4.about4 {
+    font-size: 21px;
+    margin-left: 134px;
+}
+h4{
+    color: white;
+}
+h3{
+    color: white;
+}
+h1{
+    color: white;
+}
+img {
+    margin-left: 235px;
+    margin-top: 65px;
+}

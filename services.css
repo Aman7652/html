@@ -22,18 +22,18 @@ h4.about {
     height: 30px;
 }
 nav {
-    text-align: right;
     margin-bottom: 19px;
     height: 50px;
     padding-top: 23px;
     background-color: rgb(74, 130, 181);
 }
 .logo{
-    margin-right: 555px;
+    margin-right: 515px;
     font-family: "Sedan SC", serif;
     font-size: 22px;
     text-decoration: none;
     font-style:italic;
+    margin-left: 40px;
    
 }
 .kp1{
