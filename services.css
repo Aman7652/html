@@ -8,14 +8,20 @@
 /*meanu bar*/
 h1.Hello {
     font-size: 45px;
+    color: white;
 }
 
+h2{
+    color: rgb(168, 45, 23);
+}
 h3.branch {
     font-size: 32px;
+    color: white;
 }
 
 h4.about {
     font-size: 21px;
+    color: white;
 }
 
 .sidebar{
@@ -23,49 +29,48 @@ h4.about {
 }
 nav {
     margin-bottom: 19px;
-    height: 50px;
+    height: 75px;
     padding-top: 23px;
-    background-color: rgb(74, 130, 181);
+    background-color: #12121C;
 }
-.logo{
-    margin-right: 515px;
-    font-family: "Sedan SC", serif;
-    font-size: 22px;
-    text-decoration: none;
-    font-style:italic;
-    margin-left: 40px;
-   
+img.pic {
+    height: 80px;
+    width: 334px;
+    margin-left: 39px;
 }
+
+
 .kp1{
     margin-right:25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
+    margin-left: 383px;
 }
 
 .kp2{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 
 .kp3{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 .kp4{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 .kp5{
     margin-right: 15px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 
@@ -73,6 +78,15 @@ nav {
     float: left;
     width: 25%;
     padding-right: 80px;
+    color: white;
+    text-align: justify;
+  }
+  .lop{
+    background-color: #12121C;
+    margin-top: -6px;
+  }
+  b{
+    color: #12121C;
   }
   .row:after {
     content: "";
@@ -87,7 +101,4 @@ h1.uop {
     margin-top: 73px;
     margin-left: 148px;
     font-family: "Roboto Slab", serif;
-}
-.container {
-    background-color: lavender;
 }

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,93 +12,98 @@
 .home{
     display:flex;
     margin-top: 70px;
+    
 }
 .devpic{
-    margin-top: 70px;
-    margin-left: 250px;
+    margin-top: 19px;
+    margin-left: 244px;
 }
 .devinfo{
     margin-left: 130px;
     margin-top: 169px;
-    font-family: "Sedan SC", serif;
+    font-family: "Inter", sans-serif;
 }
+
 /*meanu bar*/
 h1.Hello {
     font-size: 45px;
+    color: rgb(196, 58, 33);
 }
 
 h3.branch {
     font-size: 32px;
+    color: white;
 }
 
-h4.about {
-    font-size: 21px;
+h5.about {
+    font-size: 15px;
+    color: white;
+    margin-top: 9px;
+    color: blueviolet;
 }
+
 
 .sidebar{
     height: 30px;
 }
 nav {
     margin-bottom: 19px;
-    height: 50px;
+    height: 75px;
     padding-top: 23px;
-    background-color: rgb(74, 130, 181);
+    background-color: #12121C;
 }
-.logo{
-    margin-right: 515px;
-    font-family: "Sedan SC", serif;
-    font-size: 22px;
-    text-decoration: none;
-    font-style:italic;
+img.pic {
+    height: 80px;
+    width: 334px;
+    margin-left: 39px;
 }
-a.logo {
-    margin-left: 40px;
-}
+
 
 .kp1{
     margin-right:25px;
     text-decoration: none;
-    color: black;
-    font-family: "Roboto Slab", serif;
+    color: white;
+    font-family: "Inter", sans-serif;;
+    margin-left: 383px;
 }
 
 .kp2{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
-    font-family: "Roboto Slab", serif;
+    color: white;
+    font-family: "Inter", sans-serif;
 }
 
 .kp3{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
-    font-family: "Roboto Slab", serif;
+    color: white;
+    font-family: "Inter", sans-serif;;
 }
 .kp4{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
-    font-family: "Roboto Slab", serif;
+    color: white;
+    font-family: "Inter", sans-serif;;
 }
 .kp5{
     margin-right: 15px;
     text-decoration: none;
-    color: black;
-    font-family: "Roboto Slab", serif;
+    color: white;
+    font-family: "Inter", sans-serif;;
 }
 .button button{
 
-    background-color: rgb(74, 130, 181);
+    background-color:  #12121C;
     color: white;
     font-size: 17px;
-    margin-top: 5%;
+    margin-top: 20%;
     padding: 10px;
-    border-radius: 31px;
+    border-radius: 2px;
     cursor: pointer;
-    border-color: rgb(74, 130, 181) ;
+    border-color: rgb(202, 72, 49) ;
 }
 .button button:hover{
-    color: rgb(74, 130, 181);
-    background-color: white;
+    color: rgb(202, 72, 49);
+    background-color:#12121C;
  }

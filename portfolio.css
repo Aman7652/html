@@ -6,19 +6,19 @@
     padding: 0;
 }
 /*meanu bar*/
-body {
-  background-color: lavender;
-}
 h1.Hello {
   font-size: 45px;
+  color: white;
 }
 
 h3.branch {
   font-size: 32px;
+  color: white;
 }
 
 h4.about {
   font-size: 21px;
+  color: white;
 }
 
 .sidebar{
@@ -26,49 +26,48 @@ h4.about {
 }
 nav {
   margin-bottom: 19px;
-  height: 68px;
+  height: 75px;
   padding-top: 23px;
-  background-color: rgb(74, 130, 181);
+  background-color: #12121C;
 }
-.logo{
-  margin-right: 515px;
-  font-family: "Sedan SC", serif;
-  font-size: 22px;
-  text-decoration: none;
-  font-style:italic;
-  margin-left: 40px;
- 
+img.pic {
+  height: 80px;
+  width: 334px;
+  margin-left: 39px;
 }
+
+
 .kp1{
   margin-right:25px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-family: "Roboto Slab", serif;
+  margin-left: 383px;
 }
 
 .kp2{
   margin-right: 25px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-family: "Roboto Slab", serif;
 }
 
 .kp3{
   margin-right: 25px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-family: "Roboto Slab", serif;
 }
 .kp4{
   margin-right: 25px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-family: "Roboto Slab", serif;
 }
 .kp5{
   margin-right: 15px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-family: "Roboto Slab", serif;
 }
 /*portfolio*/
@@ -94,7 +93,7 @@ nav {
 }
 
 .goodluck {
-  margin-top: 100px;
+  margin-top: 160px;
   margin-bottom: 30px;
 }
 
@@ -102,8 +101,10 @@ a.m1 {
   margin-right: 35px;
   margin-left: 30px;
   text-decoration: none;
-  color: rgb(84, 28, 136);
-  background-color: rgb(74, 130, 181);
+  color:  rgb(202, 72, 49);
+  background-color: white;
+  border-color:rgb(202, 72, 49) ;
+  border-width: 2px;
   padding: 15px;
   border-radius: 13px;
 }
@@ -111,8 +112,9 @@ a.m2 {
   margin-right: 35px;
   margin-left: 30px;
   text-decoration: none;
-  color:rgb(84, 28, 136);
-  background-color: rgb(74, 130, 181);
+  color: rgb(202, 72, 49);
+  background-color: white;
+  border-color:rgb(202, 72, 49) ;
   padding: 15px;
   border-radius: 13px;
 }
@@ -120,8 +122,9 @@ a.m3 {
   margin-right: 35px;
   margin-left: 30px;
   text-decoration: none;
-  color: rgb(84, 28, 136);
-  background-color: rgb(74, 130, 181);
+  color:  rgb(202, 72, 49);
+  background-color: white;
+  border-color:rgb(202, 72, 49) ;
   padding: 15px;
   border-radius: 13px;
 }
@@ -129,8 +132,9 @@ a.m4 {
   margin-right: 35px;
   margin-left: 30px;
   text-decoration: none;
-  color: rgb(84, 28, 136);
-  background-color: rgb(74, 130, 181);
+  color:  rgb(202, 72, 49);
+  background-color: white;
+  border-color:rgb(202, 72, 49) ;
   padding: 15px;
   border-radius: 13px;
   padding-left: 25px;
@@ -140,8 +144,9 @@ a.m5 {
   margin-right: 35px;
   margin-left: 30px;;
   text-decoration: none;
-  color: rgb(84, 28, 136);
-  background-color: rgb(74, 130, 181);
+  color: rgb(202, 72, 49);
+  background-color: white;
+  border-color:rgb(202, 72, 49) ;
   padding: 15px;
   border-radius: 13px;
 }
@@ -149,8 +154,9 @@ a.m6{
   margin-right: 35px;
   margin-left: 30px;
   text-decoration: none;
-  color: rgb(84, 28, 136);
-  background-color: rgb(74, 130, 181);
+  color:  rgb(202, 72, 49);
+  background-color: white;
+  border-color:rgb(202, 72, 49) ;
   padding: 15px;
   border-radius: 13px;
 }

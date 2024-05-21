@@ -7,67 +7,66 @@
 /*meanu bar*/
 h1.Hello {
     font-size: 45px;
+    color: white;
 }
 
 h3.branch {
     font-size: 32px;
+    color: white;
 }
 
 h4.about {
     font-size: 21px;
+    color: white;
 }
 
 .sidebar{
     height: 30px;
-    width: 100%;
 }
 nav {
     margin-bottom: 19px;
-    height: 50px;
+    height: 75px;
     padding-top: 23px;
-    background-color: rgb(74, 130, 181);
+    background-color: #12121C;
 }
-.logo{
-    margin-right: 515px;
-    font-family: "Sedan SC", serif;
-    font-size: 22px;
-    text-decoration: none;
-    font-style:italic;
+img.pic {
+    height: 80px;
+    width: 334px;
+    margin-left: 39px;
 }
-a.logo {
-    margin-left: 40px;
-}
+
 
 .kp1{
     margin-right:25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
+    margin-left: 383px;
 }
 
 .kp2{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 
 .kp3{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 .kp4{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 .kp5{
     margin-right: 15px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 /*(home page)*/
@@ -87,29 +86,7 @@ a.logo {
     justify-content:space-around;
     font-family: "Roboto Slab", serif;
 }
-.button button{
 
-    background-color: rgb(74, 130, 181);
-    color: white;
-    font-size: 17px;
-    margin-top: 5%;
-    padding: 10px;
-    border-radius: 31px;
-    cursor: pointer;
-    border-color: rgb(74, 130, 181) ;
-}
-.button button:hover{
-   color: rgb(74, 130, 181);
-   background-color: white;
-}
-.devpic img{
-    width: 573px;
-    align-items: center;
-}
-.devinfo{
-    font-size: 33px;
-    align-content: center;
-}
 /*(contact form)*/
 .contactform{
     font-family: "Sedan SC", serif;
@@ -118,11 +95,11 @@ a.logo {
 
 }
 form {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 450px;
 }
 h1 {
-    margin-top: 75px;
+    margin-top: 100px;
     margin-left: 372px;
 }
 .contactform h1{
@@ -136,6 +113,7 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 30vw;
+    color: white;
 }
 .form-control{
     border-radius: 7px;
@@ -145,10 +123,17 @@ h1 {
 
 }
 .submit-btn{
-    margin-top: 10px;
-    padding: 8px;
-    border-radius: 22px;
-    background-color:  rgb(74, 130, 181)
+    background-color:  #12121C;
+    color: white;
+    font-size: 17px;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-color: rgb(202, 72, 49) ;
+}
+.form-check-label{
+    color: white;
 }
 h1 {
     color: white;

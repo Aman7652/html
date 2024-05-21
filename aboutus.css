@@ -1,17 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-.container{
-    height:500px;
-}
+
 .home{
     display:flex;
     margin-top: 70px;
 }
 .devpic{
-    margin-top: 70px;
-    margin-left: 250px;
+    margin-top: 19px;
+    margin-left: 244px;
 }
 .devinfo{
     margin-left: 130px;
@@ -21,69 +20,67 @@
 /*meanu bar*/
 h1.Hello {
     font-size: 45px;
+    color: white;
 }
 
 h3.branch {
     font-size: 32px;
+    color: white;
 }
 
 h4.about {
     font-size: 21px;
+    color: white;
 }
 
-.sidebar{
-    height: 30px;
-}
+
 nav {
     margin-bottom: 19px;
-    height: 50px;
+    height: 75px;
     padding-top: 23px;
-    background-color: rgb(74, 130, 181);
+    background-color: #12121C;
 }
-.logo{
-    margin-right: 515px;
-    font-family: "Sedan SC", serif;
-    font-size: 22px;
-    text-decoration: none;
-    font-style:italic;
-    margin-left: 40px;
-   
+img.pic {
+    height: 80px;
+    width: 334px;
+    margin-left: 39px;
 }
+
+
 .kp1{
     margin-right:25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
+    margin-left: 383px;
 }
 
 .kp2{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 
 .kp3{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 .kp4{
     margin-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
 .kp5{
     margin-right: 15px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Roboto Slab", serif;
 }
-/*about*/
-.column {
-    margin-top: 70px;
-    margin-left: 82px;
-    display: block;
+img {
+    width: 98%;
+    height: 550px;
 }
